@@ -34,7 +34,10 @@
     "copy": "copyfiles package.json README.md LICENSE dist && json -I -f dist/package.json -e \"this.private=false; this.devDependencies=undefined; this.optionalDependencies=undefined; this.scripts=undefined; this.husky=undefined; this.prettier=undefined; this.jest=undefined; this['lint-staged']=undefined;\""
   },
   "dependencies": {
+    "@apollo/client": "^3.6.9",
     "@babel/runtime": "^7.11.2",
+    "@react-three/drei": "^9.19.6",
+    "graphql": "^16.5.0",
     "react-composer": "^5.0.3",
     "react-merge-refs": "^1.1.0"
   },

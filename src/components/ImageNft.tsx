@@ -1,9 +1,5 @@
-const ImageNft = ({}:{
-    contractAddress: string;
-    tokenId: string
-}) => {
-
-    return null;
+const ImageNft = (/*{ contractAddress, tokenId }: { contractAddress: string; tokenId: string }*/) => {
+  return null
 }
 
-export default ImageNft;
+export default ImageNft
